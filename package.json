@@ -1,0 +1,35 @@
+{
+  "name": "aspnetcore-cadl-emitter",
+  "version": "1.0.0",
+  "description": "ASP.NET Core service code emitter from cadl API definition",
+  "main": "dist-esm/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominikMe/aspnetcore-cadl-emitter.git"
+  },
+  "keywords": [
+    "cadl",
+    "aspnetcore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DominikMe/aspnetcore-cadl-emitter/issues"
+  },
+  "homepage": "https://github.com/DominikMe/aspnetcore-cadl-emitter#readme",
+  "devDependencies": {
+    "@azure-tools/cadl-azure-core": "^0.9.0",
+    "@cadl-lang/rest": "^0.19.0",
+    "@cadl-lang/versioning": "^0.10.0",
+    "@types/node": "^18.11.9",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@cadl-lang/compiler": "^0.37.0"
+  }
+}
