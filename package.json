@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "ASP.NET Core service code emitter from cadl API definition",
   "main": "dist-esm/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc -p .",
+    "emit":  "npm run build && cadl compile .\\test\\test.cadl --emit \"aspnetcore-cadl-emitter\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
